@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<title>Página de Produtos</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Eliane Alves" />
+    <meta name="keywords" content="miçangas, arte, artesanato, personalização" />
+    <meta name="description" content="Arte feito com miçangas" />
+
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 2px solid #ccc;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .menu a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .titulo {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .produto {
+            background: #fff;
+            padding: 15px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .produto img {
+            max-width: 100%;
+            height: auto;
+        }
+        .produto h3 {
+            margin: 10px 0;
+        }
+        .produto p {
+            font-size: 18px;
+            color: #333;
+        }
+        .botao {
+            display: inline-block;
+            background: #333;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        .footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+
+	<body>
+    <div class="container">
+        <div class="header">
+            <h1>LIARTES MIÇANGAS</h1>
+            <div class="menu">
+                <a href="#">HOME</a>
+                <a href="#">SOBRE</a>
+                <a href="#sistemafinal">PERSONALIZE</a>
+                <a href="#">COMPRAR</a>
+                <a href="#">CONTATO</a>
+            </div>
+        </div>
+        <h2 class="titulo">Vitrine da Liartes</h2>
+        <div class="grid">
+            <div class="produto">
+                <img src="img/Coelho.jpg" alt="Chaveiro Coelho">
+                <h3>Chaveiro Coelho</h3>
+                <p>$60.00</p>
+                <a href="#" class="botao">Incluir na sacola</a>
+            </div>
+            <div class="produto">
+                <img src="img/sapo.jpg" alt="Chaveiro sapo">
+                <h3>Chaveiro sapo</h3>
+                <p>$60.00</p>
+                <a href="#" class="botao">Incluir na sacola</a>
+            </div>
+            <div class="produto">
+                <img src="img/caneta.jpg" alt="Chaveiro caneta">
+                <h3>Chaveiro caneta</h3>
+                <p>$60.00</p>
+                <a href="#" class="botao">Incluir na sacola</a>
+            </div>
+            <div class="produto">
+                <img src="img/bebe.jpg" alt="Chaveiro bebe">
+                <h3>Chaveiro bebe</h3>
+                <p>$60.00</p>
+                <a href="#" class="botao">Incluir na sacola</a>
+            </div>
+            <div class="produto">
+                <img src="img/cachorro.jpg" alt="Chaveiro cachorro">
+                <h3>Chaveiro cachorro</h3>
+                <p>$60.00</p>
+                <a href="#" class="botao">Incluir na sacola</a>
+            </div>
+            <div class="produto">
+                <img src="img/elefante.jpg" alt="Chaveiro elefante">
+                <h3>Chaveiro Coelho</h3>
+                <p>$60.00</p>
+                <a href="#" class="botao">Incluir na sacola</a>
+            </div>
+        </div>
+        <div class="footer">
+            Desenvolvido por Eliane Alves
+        </div>
+    </div>
+</body>
+</html>
